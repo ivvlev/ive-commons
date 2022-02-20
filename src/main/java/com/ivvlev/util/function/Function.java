@@ -1,6 +1,6 @@
 package com.ivvlev.util.function;
 
 @FunctionalInterface
-public interface Procedure {
-    void exec();
+public interface Function<R> {
+    R exec();
 }
